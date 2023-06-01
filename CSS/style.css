@@ -44,25 +44,35 @@ header div:nth-of-type(2){
   margin-right: 15px;
 }
 
-/* header i {
-  color: white;
-} */
-
 main {
+  background-color: bisque;     /* placeholder */
   flex-grow: 1;
-  overflow: auto;
 }
 
-main > div {
+.big-container {
+  margin: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  gap: 1rem;
+}
+
+.container {
+  width: 250px;
+  height: 175px;
+}
+
+.container > div {
   position: relative;
-  height: 250px;
+  height: 100%;
+  width: 100%;
 }
 
 .voice-activation {
   background-color: rgba(0,0,0,0.5);
   position: absolute;
   bottom: 0;
-  padding: 5px;
+  padding: 5px 7px;
 }
 
 footer {
@@ -71,7 +81,7 @@ footer {
 }
 
 
-
+                  /* classi di stile */
 /* classi di colore testo */
 
 .white {
