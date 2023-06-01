@@ -8,15 +8,26 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 body,
 header,
+main,
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
 header div {
   display: flex;
 }
 
 header {
   background-color: black;
-  color: white;
   width: 100%;
   justify-content: flex-end;
   align-items: flex-start;
@@ -39,5 +50,32 @@ header div:nth-of-type(2){
 
 main {
   flex-grow: 1;
+  overflow: auto;
 }
 
+main > div {
+  position: relative;
+  height: 250px;
+}
+
+.voice-activation {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+
+footer {
+  height: 100px;      /* altezza temporanea */
+  background-color: rgba(34,34,34,255);
+}
+
+
+
+/* classi di colore testo */
+
+.white {
+  color: white;
+}
+
+/* classi di stile testo */
