@@ -49,12 +49,11 @@ main {
   flex-grow: 1;
 }
 
-.big-container {
-  margin: 10px 20px;
+.big-container {      /* non riesco a centrarlo senza che cambi dimensioni */
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
-  gap: 1rem;
+  gap: 0.9rem 0.5rem;
 }
 
 .container {
