@@ -78,6 +78,7 @@ footer {
   height: 100px;      /* altezza temporanea */
   background-color: rgba(34,34,34,255);
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-container {
