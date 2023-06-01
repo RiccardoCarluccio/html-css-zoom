@@ -54,6 +54,8 @@ main {
   flex-wrap: wrap;
   overflow: auto;
   gap: 0.9rem 0.5rem;
+  justify-content: center;
+  margin: 25px;
 }
 
 .container {
