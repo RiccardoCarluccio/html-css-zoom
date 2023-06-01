@@ -77,8 +77,20 @@ main {
 footer {
   height: 100px;      /* altezza temporanea */
   background-color: rgba(34,34,34,255);
+  justify-content: space-between;
 }
 
+.footer-container {
+  display: flex;
+}
+
+.footer-container > div {
+  display: flex;
+}
+
+footer img {
+  display: block;
+}
 
                   /* classi di stile */
 /* classi di colore testo */
