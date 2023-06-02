@@ -95,6 +95,7 @@ footer {
 
 footer img {
   display: block;
+  margin: auto;
 }
 
 .footer-left-container {
