@@ -90,10 +90,28 @@ footer {
 
 .footer-container > div {
   display: flex;
+  gap: 10px;
 }
 
 footer img {
   display: block;
+}
+
+.footer-left-container {
+  margin-left: 15px;
+}
+
+.footer-middle-container {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.icon-text {
+  text-align: center;
+}
+
+.options {
+  align-self: center;
 }
 
 .btn-footer-container {
